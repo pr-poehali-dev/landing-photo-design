@@ -77,7 +77,7 @@ export default function Index() {
                 <div className="text-xl md:text-2xl font-avenir-bold font-black text-white mb-8 leading-none tracking-tight hover:tracking-wider transition-all duration-700">
                   next level IT
                 </div>
-                <p className="text-4xl md:text-5xl lg:text-6xl text-gray-300 mb-8 leading-none font-bold opacity-90 hover:opacity-100 transition-opacity duration-500">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-avenir-bold font-bold text-gray-300 mb-8 leading-none opacity-90 hover:opacity-100 transition-opacity duration-500">
                   Ведущий ИТ интегратор для выхода бизнеса на новый уровень
                 </p>
               </div>
