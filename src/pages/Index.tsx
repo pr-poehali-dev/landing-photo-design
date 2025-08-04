@@ -49,40 +49,58 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-start bg-black overflow-hidden">
+      <section className="relative min-h-screen flex items-center bg-black overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
           style={{ backgroundImage: `url('/img/3ccf063c-b721-48e6-bb0f-dcc8a3b2fce6.jpg')` }}
         />
         <div className="absolute inset-0 bg-black/40" />
         
-        <div className="relative z-10 container mx-auto px-6">
-          <div className="max-w-2xl">
-            <div className="text-8xl md:text-9xl font-avenir font-black text-white mb-8 leading-none tracking-tighter hover:tracking-wider transition-all duration-700">
-              AWG
-            </div>
-            <p className="text-xl md:text-2xl text-gray-300 mb-16 leading-relaxed max-w-xl font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
-              Услуги по ИТ-консалтингу и ИТ-аудиту, настройка и техническая поддержка высоконагруженных проектов
-            </p>
-            
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
-              <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
-                <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Проектов</div>
+        {/* Скошенный градиент */}
+        <div 
+          className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent"
+          style={{
+            background: 'linear-gradient(105deg, black 0%, black 33%, rgba(0,0,0,0.7) 50%, transparent 75%)'
+          }}
+        />
+        
+        <div className="relative z-10 w-full">
+          <div className="container mx-auto px-6">
+            {/* Контент распределен по всей ширине */}
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between w-full gap-12">
+              
+              {/* Левая часть - основной текст */}
+              <div className="flex-1 max-w-2xl">
+                <div className="text-8xl md:text-9xl lg:text-[8rem] font-avenir font-black text-white mb-8 leading-none tracking-tighter hover:tracking-wider transition-all duration-700">
+                  AWG
+                </div>
+                <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
+                  Услуги по ИТ-консалтингу и ИТ-аудиту, настройка и техническая поддержка высоконагруженных проектов
+                </p>
               </div>
-              <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22&nbsp;000+</div>
-                <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Строк кода</div>
+              
+              {/* Правая часть - статистики */}
+              <div className="flex-1 max-w-2xl">
+                <div className="grid grid-cols-2 gap-8 lg:gap-12">
+                  <div className="group cursor-pointer text-center lg:text-left">
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
+                    <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Проектов</div>
+                  </div>
+                  <div className="group cursor-pointer text-center lg:text-left">
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22&nbsp;000+</div>
+                    <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Строк кода</div>
+                  </div>
+                  <div className="group cursor-pointer text-center lg:text-left">
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1&nbsp;000+</div>
+                    <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Часов работы</div>
+                  </div>
+                  <div className="group cursor-pointer text-center lg:text-left">
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
+                    <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Лет опыта</div>
+                  </div>
+                </div>
               </div>
-              <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1&nbsp;000+</div>
-                <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Часов работы</div>
-              </div>
-              <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
-                <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Лет опыта</div>
-              </div>
+              
             </div>
           </div>
         </div>
