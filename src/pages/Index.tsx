@@ -115,14 +115,82 @@ export default function Index() {
           <div className="text-center mb-12">
             <p className="text-sm text-gray-500 uppercase tracking-wider mb-8">Нам доверяют</p>
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-8 opacity-60">
-            {/* Client logos grid */}
-            <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-8 w-full">
-              {Array.from({length: 24}, (_, i) => (
-                <div key={i} className="h-12 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300 group cursor-pointer">
-                  <div className="w-8 h-8 bg-gray-300 rounded group-hover:bg-gray-400 transition-colors duration-300"></div>
-                </div>
-              ))}
+          {/* Сектора бизнеса */}
+          <div className="mb-16">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center max-w-4xl mx-auto">
+              <div className="text-gray-700 font-medium">Ритейл</div>
+              <div className="text-gray-700 font-medium">Финансовый</div>
+              <div className="text-gray-700 font-medium">Промышленность и производство</div>
+              <div className="text-gray-400 font-medium opacity-50">Банкинг</div>
+              <div className="text-gray-400 font-medium opacity-50">IT-компании</div>
+              <div className="text-gray-400 font-medium opacity-50">Страхование</div>
+              <div className="text-gray-400 font-medium opacity-50">Транспорт и туризм</div>
+              <div className="text-gray-400 font-medium opacity-50">Недвижимость и строительство</div>
+              <div className="text-gray-400 font-medium opacity-50">Государственный</div>
+              <div className="text-gray-400 font-medium opacity-50">Гостинично-ресторанный</div>
+            </div>
+          </div>
+          
+          {/* Логотипы компаний */}
+          <div className="flex flex-wrap items-center justify-center gap-6">
+            {/* Первый ряд */}
+            <div className="flex items-center justify-center w-24 h-12 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+              <span className="text-red-600 font-bold text-lg">Hoff</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-red-600 rounded-full hover:bg-red-700 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">М.Видео</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">Перекрёсток</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">OZON</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Sportmaster</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-red-600 rounded-lg hover:bg-red-700 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">Альфа-Банк</span>
+            </div>
+            
+            {/* Второй ряд */}
+            <div className="flex items-center justify-center w-24 h-12 bg-yellow-400 rounded-lg hover:bg-yellow-500 transition-colors duration-300">
+              <span className="text-black font-bold text-xs">Лемана ПРО</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-blue-700 rounded-lg hover:bg-blue-800 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">ВТБ</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">АШАН</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">DNS</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-gray-800 rounded-lg hover:bg-gray-900 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Юлмарт</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-red-700 rounded-lg hover:bg-red-800 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Росгосстрах</span>
+            </div>
+            
+            {/* Третий ряд */}
+            <div className="flex items-center justify-center w-24 h-12 bg-blue-800 rounded-lg hover:bg-blue-900 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Газпромбанк</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">БНС Групп</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-cyan-500 rounded-lg hover:bg-cyan-600 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Донстрой</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-green-700 rounded-lg hover:bg-green-800 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">Сбер</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-green-500 rounded-lg hover:bg-green-600 transition-colors duration-300">
+              <span className="text-white font-bold text-sm">Acer</span>
+            </div>
+            <div className="flex items-center justify-center w-24 h-12 bg-gray-700 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+              <span className="text-white font-bold text-xs">Beeline</span>
             </div>
           </div>
         </div>
