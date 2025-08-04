@@ -18,8 +18,11 @@ export default function Index() {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium uppercase tracking-wider hover:tracking-widest">Услуги</a>
+              <span className="text-gray-500">/</span>
               <a href="#about" className="text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium uppercase tracking-wider hover:tracking-widest">О компании</a>
+              <span className="text-gray-500">/</span>
               <a href="#cases" className="text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium uppercase tracking-wider hover:tracking-widest">Кейсы</a>
+              <span className="text-gray-500">/</span>
               <a href="#contacts" className="text-gray-300 hover:text-white transition-all duration-300 text-sm font-medium uppercase tracking-wider hover:tracking-widest">Контакты</a>
             </div>
             
@@ -72,10 +75,10 @@ export default function Index() {
               {/* Левая часть - основной текст */}
               <div className="flex-1 max-w-2xl">
                 <div className="text-6xl md:text-7xl lg:text-8xl font-avenir-bold font-black text-white mb-8 leading-none tracking-tight hover:tracking-wider transition-all duration-700">
-                  NEXT LEVEL IT
+                  next level IT
                 </div>
                 <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
-                  Услуги по ИТ-консалтингу и ИТ-аудиту, настройка и техническая поддержка высоконагруженных проектов
+                  Ведущий ИТ интегратор для выхода бизнеса на новый уровень
                 </p>
               </div>
               
