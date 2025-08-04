@@ -134,63 +134,63 @@ export default function Index() {
           {/* Логотипы компаний */}
           <div className="flex flex-wrap items-center justify-center gap-6">
             {/* Первый ряд */}
-            <div className="flex items-center justify-center w-24 h-12 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-              <span className="text-red-600 font-bold text-lg">Hoff</span>
+            <div className="flex items-center justify-center w-24 h-12 bg-gray-200 rounded-lg hover:bg-gray-300 transition-colors duration-300 cursor-pointer group">
+              <span className="text-red-600 font-bold text-sm group-hover:scale-105 transition-transform duration-300">Hoff</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-red-600 rounded-full hover:bg-red-700 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">М.Видео</span>
+            <div className="w-24 h-12 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">М.Видео</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">Перекрёсток</span>
+            <div className="w-24 h-12 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300 cursor-pointer group">
+              <span className="text-green-600 font-bold text-xs group-hover:scale-105 transition-transform duration-300">Перекрёсток</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">OZON</span>
+            <div className="w-24 h-12 bg-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">OZON</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Sportmaster</span>
+            <div className="w-24 h-12 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300 cursor-pointer group">
+              <span className="text-orange-600 font-bold text-xs group-hover:scale-105 transition-transform duration-300">Sportmaster</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-red-600 rounded-lg hover:bg-red-700 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">Альфа-Банк</span>
+            <div className="w-24 h-12 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Альфа-Банк</span>
             </div>
             
             {/* Второй ряд */}
-            <div className="flex items-center justify-center w-24 h-12 bg-yellow-400 rounded-lg hover:bg-yellow-500 transition-colors duration-300">
-              <span className="text-black font-bold text-xs">Лемана ПРО</span>
+            <div className="w-24 h-12 bg-yellow-400 rounded-lg flex items-center justify-center hover:bg-yellow-500 transition-colors duration-300 cursor-pointer group">
+              <span className="text-black font-bold text-xs group-hover:scale-105 transition-transform duration-300">Лемана ПРО</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-blue-700 rounded-lg hover:bg-blue-800 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">ВТБ</span>
+            <div className="w-24 h-12 bg-blue-700 rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">ВТБ</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-green-600 rounded-lg hover:bg-green-700 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">АШАН</span>
+            <div className="w-24 h-12 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-gray-300 transition-colors duration-300 cursor-pointer group">
+              <span className="text-green-600 font-bold text-sm group-hover:scale-105 transition-transform duration-300">АШАН</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">DNS</span>
+            <div className="w-24 h-12 bg-orange-500 rounded-lg flex items-center justify-center hover:bg-orange-600 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">DNS</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-gray-800 rounded-lg hover:bg-gray-900 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Юлмарт</span>
+            <div className="w-24 h-12 bg-black rounded-lg flex items-center justify-center hover:bg-gray-900 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Юлмарт</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-red-700 rounded-lg hover:bg-red-800 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Росгосстрах</span>
+            <div className="w-24 h-12 bg-red-700 rounded-full flex items-center justify-center hover:bg-red-800 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Росгосстрах</span>
             </div>
             
             {/* Третий ряд */}
-            <div className="flex items-center justify-center w-24 h-12 bg-blue-800 rounded-lg hover:bg-blue-900 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Газпромбанк</span>
+            <div className="w-24 h-12 bg-blue-800 rounded-lg flex items-center justify-center hover:bg-blue-900 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Газпромбанк</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">БНС Групп</span>
+            <div className="w-24 h-12 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-purple-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">БНС Групп</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-cyan-500 rounded-lg hover:bg-cyan-600 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Донстрой</span>
+            <div className="w-24 h-12 bg-cyan-500 rounded-lg flex items-center justify-center hover:bg-cyan-600 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Донстрой</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-green-700 rounded-lg hover:bg-green-800 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">Сбер</span>
+            <div className="w-24 h-12 bg-green-600 rounded-lg flex items-center justify-center hover:bg-green-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">Сбер</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-green-500 rounded-lg hover:bg-green-600 transition-colors duration-300">
-              <span className="text-white font-bold text-sm">Acer</span>
+            <div className="w-24 h-12 bg-green-500 rounded-lg flex items-center justify-center hover:bg-green-600 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-sm group-hover:scale-105 transition-transform duration-300">Acer</span>
             </div>
-            <div className="flex items-center justify-center w-24 h-12 bg-gray-700 rounded-lg hover:bg-gray-800 transition-colors duration-300">
-              <span className="text-white font-bold text-xs">Beeline</span>
+            <div className="w-24 h-12 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors duration-300 cursor-pointer group">
+              <span className="text-white font-bold text-xs group-hover:scale-105 transition-transform duration-300">Beeline</span>
             </div>
           </div>
         </div>
