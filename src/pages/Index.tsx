@@ -197,50 +197,151 @@ export default function Index() {
       </section>
 
       {/* Achievements Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-              {/* Первое достижение */}
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
-                  80+
-                </div>
-                <div className="text-sm text-gray-600 leading-relaxed">
-                  успешных проектов внедрения
-                </div>
-              </div>
-              
-              {/* Второе достижение */}
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
-                  95%
-                </div>
-                <div className="text-sm text-gray-600 leading-relaxed">
-                  клиентов продлевают контракт
-                </div>
-              </div>
-              
-              {/* Третье достижение */}
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
-                  15+
-                </div>
-                <div className="text-sm text-gray-600 leading-relaxed">
-                  лет на рынке ИТ-интеграции
-                </div>
-              </div>
-              
-              {/* Четвертое достижение */}
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
-                  500+
-                </div>
-                <div className="text-sm text-gray-600 leading-relaxed">
-                  специалистов в команде
-                </div>
-              </div>
+      <section className="bg-white relative" style={{height: '1080px'}}>
+        {/* Top border */}
+        <div className="absolute top-20 left-10 right-10 h-px bg-black"></div>
+        
+        {/* Bottom border with opacity */}
+        <div className="absolute left-10 right-10 h-px bg-black opacity-40" style={{top: '680px'}}></div>
+        
+        {/* Section number */}
+        <div className="absolute left-10 top-6 text-black text-2xl font-avenir" style={{letterSpacing: '-0.015em'}}>
+          04
+        </div>
+        
+        {/* Section title top */}
+        <div className="absolute left-10 text-black text-2xl font-avenir" style={{top: '100px', letterSpacing: '-0.015em'}}>
+          Достижения
+        </div>
+        
+        {/* Left column achievements */}
+        <div className="absolute flex flex-col gap-2.5" style={{left: '500px', top: '100px', width: '690px'}}>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            ТОП-5 премии Tagline Awards 2023 в пяти номинациях
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            35 место в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            ТОП-100 лучших ИТ-работодателей в рейтинге от HH.ru
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            ТОП-15 рейтинга Хабр Карьера
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            1 место рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»
+          </div>
+        </div>
+        
+        {/* Right column achievements */}
+        <div className="absolute flex flex-col gap-2.5" style={{left: '1190px', top: '100px', width: '690px'}}>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            1 место конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            2 место в Кубковом рейтинге диджитал-интеграторов 2024
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            2 место премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            4-х кратный обладатель премии «Большой оборот»
+          </div>
+        </div>
+        
+        {/* Bottom section title */}
+        <div className="absolute left-10 text-black text-2xl font-avenir" style={{top: '700px', letterSpacing: '-0.015em'}}>
+          Достижения
+        </div>
+        
+        {/* Bottom achievements */}
+        <div className="absolute" style={{left: '500px', top: '700px', width: '690px'}}>
+          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
+            Член Российской ассоциации электронных коммуникаций
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
+            Член Ассоциации менеджеров России
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
+            Авторы ИТ-курсов Skillbox
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
+            Аккредитация Минкомсвязи РФ
+          </div>
+          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
+            Резидент Сколково
+          </div>
+        </div>
+      </section>
+      
+      {/* Omni retail rating Section */}
+      <section className="bg-white relative" style={{height: '1080px'}}>
+        {/* Vertical background strip */}
+        <div className="absolute right-0 top-0 w-96 h-full bg-black opacity-5"></div>
+        
+        {/* Top border */}
+        <div className="absolute top-20 left-10 right-10 h-px bg-black"></div>
+        
+        {/* Middle border */}
+        <div className="absolute left-10 h-px bg-black opacity-25" style={{top: '280px', width: '900px'}}></div>
+        
+        {/* Section number */}
+        <div className="absolute left-10 top-5 text-black text-2xl font-avenir" style={{letterSpacing: '-0.015em'}}>
+          05
+        </div>
+        
+        {/* Main title */}
+        <div className="absolute left-10 text-black font-avenir" style={{top: '95px', fontSize: '95px', lineHeight: '105px', letterSpacing: '-0.015em'}}>
+          Omni retail rating
+        </div>
+        
+        {/* Subtitle */}
+        <div className="absolute left-10 text-black font-avenir" style={{top: '300px', fontSize: '45px', lineHeight: '55px', letterSpacing: '-0.015em', width: '510px'}}>
+          Формирование трендов в e-commerce
+        </div>
+        
+        {/* Data Insight partnership */}
+        <div className="absolute left-10 flex items-center gap-2.5" style={{top: '485px'}}>
+          <span className="text-black text-2xl font-avenir" style={{letterSpacing: '-0.015em'}}>
+            Cовместно с DataInsight
+          </span>
+          <div className="w-8 h-8 flex items-center justify-center">
+            <div className="flex gap-1">
+              <div className="w-2 h-4 bg-blue-600"></div>
+              <div className="w-2 h-4 bg-red-500"></div>
+              <div className="w-6 h-4 bg-gray-700"></div>
             </div>
+          </div>
+        </div>
+        
+        {/* Description text */}
+        <div className="absolute left-10 text-black text-2xl font-avenir leading-8" style={{top: '540px', width: '670px', letterSpacing: '-0.015em'}}>
+          AWG – ведущий digital интегратор, который исследует уровень омниканальности крупнейших российских ритейлеров и удобство клиентского сервиса. AWG и аналитическая компания Data Insight проводят совместное исследование рынка ритейла. На основании его результатов формируется рейтинг омниканальности: Omni retail rating отражает слабые и сильные стороны ритейлеров на стыке онлайна и офлайна в торговле.
+        </div>
+        
+        {/* Website link */}
+        <div className="absolute left-10 bottom-20 text-black text-2xl font-avenir" style={{letterSpacing: '-0.015em'}}>
+          omnirating.ru
+        </div>
+        
+        {/* Dashboard mockup */}
+        <div className="absolute bg-gray-900 rounded-2xl" style={{right: '60px', top: '280px', width: '975px', height: '600px'}}>
+          {/* Browser dots */}
+          <div className="absolute top-3.5 left-3.5 flex gap-1.5">
+            <div className="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
+            <div className="w-2.5 h-2.5 bg-white opacity-20 rounded-full"></div>
+            <div className="w-2.5 h-2.5 bg-white opacity-20 rounded-full"></div>
+          </div>
+          
+          {/* Dashboard content placeholder */}
+          <div className="absolute bottom-0 left-0 right-0 h-14 bg-gray-100 rounded-b-2xl flex items-center justify-center">
+            <span className="text-gray-600 text-sm">Dashboard Preview</span>
           </div>
         </div>
       </section>
