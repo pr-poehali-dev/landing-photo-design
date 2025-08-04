@@ -13,7 +13,7 @@ export default function Index() {
       <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-md">
         <div className="container mx-auto px-6 py-4">
           <nav className="flex items-center justify-between">
-            <div className="text-3xl font-avenir font-black text-white tracking-widest">
+            <div className="text-3xl font-avenir-bold font-black text-white tracking-widest">
               AWG
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -56,11 +56,11 @@ export default function Index() {
         />
         <div className="absolute inset-0 bg-black/40" />
         
-        {/* Скошенный градиент */}
+        {/* Скошенный градиент до середины */}
         <div 
-          className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent"
+          className="absolute inset-0"
           style={{
-            background: 'linear-gradient(105deg, black 0%, black 33%, rgba(0,0,0,0.7) 50%, transparent 75%)'
+            background: 'linear-gradient(105deg, black 0%, black 33%, rgba(0,0,0,0.7) 50%, transparent 50%)'
           }}
         />
         
@@ -71,8 +71,8 @@ export default function Index() {
               
               {/* Левая часть - основной текст */}
               <div className="flex-1 max-w-2xl">
-                <div className="text-8xl md:text-9xl lg:text-[8rem] font-avenir font-black text-white mb-8 leading-none tracking-tighter hover:tracking-wider transition-all duration-700">
-                  AWG
+                <div className="text-6xl md:text-7xl lg:text-8xl font-avenir-bold font-black text-white mb-8 leading-none tracking-tight hover:tracking-wider transition-all duration-700">
+                  NEXT LEVEL IT
                 </div>
                 <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
                   Услуги по ИТ-консалтингу и ИТ-аудиту, настройка и техническая поддержка высоконагруженных проектов
@@ -83,19 +83,19 @@ export default function Index() {
               <div className="flex-1 max-w-2xl">
                 <div className="grid grid-cols-2 gap-8 lg:gap-12">
                   <div className="group cursor-pointer text-center lg:text-left">
-                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir-bold font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
                     <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Проектов</div>
                   </div>
                   <div className="group cursor-pointer text-center lg:text-left">
-                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22&nbsp;000+</div>
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir-bold font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22&nbsp;000+</div>
                     <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Строк кода</div>
                   </div>
                   <div className="group cursor-pointer text-center lg:text-left">
-                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1&nbsp;000+</div>
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir-bold font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1&nbsp;000+</div>
                     <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Часов работы</div>
                   </div>
                   <div className="group cursor-pointer text-center lg:text-left">
-                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
+                    <div className="text-4xl md:text-5xl lg:text-6xl font-avenir-bold font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
                     <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Лет опыта</div>
                   </div>
                 </div>

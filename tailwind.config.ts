@@ -68,6 +68,7 @@ export default {
 			},
 			fontFamily: {
 				'avenir': ['Avenir Next Cyr', 'sans-serif'],
+				'avenir-bold': ['AvenirNextCyr-Bold', 'Avenir Next Cyr', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif']
 			},
 			borderRadius: {
