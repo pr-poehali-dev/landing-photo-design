@@ -197,85 +197,80 @@ export default function Index() {
       </section>
 
       {/* Achievements Section */}
-      <section className="bg-white relative" style={{height: '1080px'}}>
-        {/* Top border */}
-        <div className="absolute top-20 left-10 right-10 h-px bg-black"></div>
-        
-        {/* Bottom border with opacity */}
-        <div className="absolute left-10 right-10 h-px bg-black opacity-40" style={{top: '680px'}}></div>
-        
-        {/* Section number */}
-        <div className="absolute left-10 top-6 text-black text-2xl font-avenir" style={{letterSpacing: '-0.015em'}}>
-          04
-        </div>
-        
-        {/* Section title top */}
-        <div className="absolute left-10 text-black text-2xl font-avenir" style={{top: '100px', letterSpacing: '-0.015em'}}>
-          Достижения
-        </div>
-        
-        {/* Left column achievements */}
-        <div className="absolute flex flex-col gap-2.5" style={{left: '500px', top: '100px', width: '690px'}}>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            ТОП-5 премии Tagline Awards 2023 в пяти номинациях
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <p className="text-sm text-gray-500 uppercase tracking-wider mb-8">Достижения</p>
           </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            35 место в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024
+          
+          {/* Main achievements grid */}
+          <div className="max-w-6xl mx-auto mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Left column */}
+              <div className="space-y-6">
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  ТОП-5 премии Tagline Awards 2023 в пяти номинациях
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  35 место в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  ТОП-100 лучших ИТ-работодателей в рейтинге от HH.ru
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  ТОП-15 рейтинга Хабр Карьера
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  1 место рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»
+                </div>
+              </div>
+              
+              {/* Right column */}
+              <div className="space-y-6">
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  1 место конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  2 место в Кубковом рейтинге диджитал-интеграторов 2024
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  2 место премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция
+                </div>
+                <div className="text-gray-700 font-medium leading-relaxed">
+                  4-х кратный обладатель премии «Большой оборот»
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            ТОП-100 лучших ИТ-работодателей в рейтинге от HH.ru
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            ТОП-15 рейтинга Хабр Карьера
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            1 место рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»
-          </div>
-        </div>
-        
-        {/* Right column achievements */}
-        <div className="absolute flex flex-col gap-2.5" style={{left: '1190px', top: '100px', width: '690px'}}>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            1 место конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            2 место в Кубковом рейтинге диджитал-интеграторов 2024
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            2 место премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            4-х кратный обладатель премии «Большой оборот»
-          </div>
-        </div>
-        
-        {/* Bottom section title */}
-        <div className="absolute left-10 text-black text-2xl font-avenir" style={{top: '700px', letterSpacing: '-0.015em'}}>
-          Достижения
-        </div>
-        
-        {/* Bottom achievements */}
-        <div className="absolute" style={{left: '500px', top: '700px', width: '690px'}}>
-          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
-            Член Российской ассоциации электронных коммуникаций
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
-            Член Ассоциации менеджеров России
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
-            Авторы ИТ-курсов Skillbox
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8 mb-4" style={{letterSpacing: '-0.015em'}}>
-            Аккредитация Минкомсвязи РФ
-          </div>
-          <div className="text-black text-2xl font-avenir leading-8" style={{letterSpacing: '-0.015em'}}>
-            Резидент Сколково
+          
+          {/* Bottom achievements section */}
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <p className="text-sm text-gray-500 uppercase tracking-wider">Членство и аккредитации</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+              <div className="text-gray-700 font-medium">
+                Член Российской ассоциации электронных коммуникаций
+              </div>
+              <div className="text-gray-700 font-medium">
+                Член Ассоциации менеджеров России
+              </div>
+              <div className="text-gray-700 font-medium">
+                Авторы ИТ-курсов Skillbox
+              </div>
+              <div className="text-gray-700 font-medium">
+                Аккредитация Минкомсвязи РФ
+              </div>
+              <div className="text-gray-700 font-medium">
+                Резидент Сколково
+              </div>
+            </div>
           </div>
         </div>
       </section>
