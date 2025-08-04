@@ -61,7 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'mountain-dark': '#1a1a1a',
+				'mountain-gray': '#2d3748',
+				'mountain-light': '#718096'
+			},
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
