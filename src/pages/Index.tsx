@@ -196,6 +196,55 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Achievements Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+              {/* Первое достижение */}
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
+                  80+
+                </div>
+                <div className="text-sm text-gray-600 leading-relaxed">
+                  успешных проектов внедрения
+                </div>
+              </div>
+              
+              {/* Второе достижение */}
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
+                  95%
+                </div>
+                <div className="text-sm text-gray-600 leading-relaxed">
+                  клиентов продлевают контракт
+                </div>
+              </div>
+              
+              {/* Третье достижение */}
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
+                  15+
+                </div>
+                <div className="text-sm text-gray-600 leading-relaxed">
+                  лет на рынке ИТ-интеграции
+                </div>
+              </div>
+              
+              {/* Четвертое достижение */}
+              <div className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-black mb-3">
+                  500+
+                </div>
+                <div className="text-sm text-gray-600 leading-relaxed">
+                  специалистов в команде
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-6">
