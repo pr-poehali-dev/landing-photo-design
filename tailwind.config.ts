@@ -67,7 +67,7 @@ export default {
 				'mountain-light': '#718096'
 			},
 			fontFamily: {
-				'montserrat': ['Montserrat', 'sans-serif'],
+				'avenir': ['Avenir Next Cyr', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif']
 			},
 			borderRadius: {

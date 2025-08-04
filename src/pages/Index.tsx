@@ -13,7 +13,7 @@ export default function Index() {
       <header className="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-md">
         <div className="container mx-auto px-6 py-4">
           <nav className="flex items-center justify-between">
-            <div className="text-3xl font-montserrat font-black text-white tracking-widest">
+            <div className="text-3xl font-avenir font-black text-white tracking-widest">
               AWG
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -58,7 +58,7 @@ export default function Index() {
         
         <div className="relative z-10 container mx-auto px-6">
           <div className="max-w-2xl">
-            <div className="text-8xl md:text-9xl font-montserrat font-black text-white mb-8 leading-none tracking-tighter hover:tracking-wider transition-all duration-700">
+            <div className="text-8xl md:text-9xl font-avenir font-black text-white mb-8 leading-none tracking-tighter hover:tracking-wider transition-all duration-700">
               AWG
             </div>
             <p className="text-xl md:text-2xl text-gray-300 mb-16 leading-relaxed max-w-xl font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
@@ -68,19 +68,19 @@ export default function Index() {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
               <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
+                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">40+</div>
                 <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Проектов</div>
               </div>
               <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22 000+</div>
+                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">22&nbsp;000+</div>
                 <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Строк кода</div>
               </div>
               <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1 000+</div>
+                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">1&nbsp;000+</div>
                 <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Часов работы</div>
               </div>
               <div className="group cursor-pointer">
-                <div className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
+                <div className="text-4xl md:text-5xl font-avenir font-bold text-white mb-2 group-hover:scale-110 transition-transform duration-300">10</div>
                 <div className="text-gray-400 text-sm uppercase tracking-wider group-hover:text-white transition-colors duration-300">Лет опыта</div>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Index() {
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl">
-            <h2 className="text-5xl font-montserrat font-bold text-black mb-12 leading-tight">
+            <h2 className="text-5xl font-avenir font-bold text-black mb-12 leading-tight">
               Ведущий ИТ-интегратор
             </h2>
             
@@ -149,7 +149,7 @@ export default function Index() {
               </div>
               
               <div>
-                <h3 className="text-2xl font-montserrat font-semibold text-black mb-6">
+                <h3 className="text-2xl font-avenir font-semibold text-black mb-6">
                   Omni retail rating
                 </h3>
                 
@@ -177,34 +177,32 @@ export default function Index() {
       <section id="services" className="py-20 bg-black">
         <div className="container mx-auto px-6">
           <div className="mb-20">
-            <h2 className="text-5xl font-montserrat font-bold text-white mb-8 leading-tight">
-              Бизнес и системная<br />
-              аналитика — одна из наших<br />
-              сильных сторон
+            <h2 className="text-5xl font-avenir font-bold text-white mb-8 leading-tight">
+              Бизнес и системная аналитика — одна из наших сильных сторон
             </h2>
           </div>
 
           {/* Service Stages */}
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition-all duration-500 group cursor-pointer hover:-translate-y-2">
-              <div className="text-6xl font-montserrat font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">01</div>
-              <h3 className="text-xl font-montserrat font-semibold text-white mb-4">Анализ</h3>
+              <div className="text-6xl font-avenir font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">01</div>
+              <h3 className="text-xl font-avenir font-semibold text-white mb-4">Анализ</h3>
               <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
                 Глубокий анализ бизнес-процессов, существующих систем и потребностей компании для выработки оптимального решения
               </p>
             </div>
             
             <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition-all duration-500 group cursor-pointer hover:-translate-y-2">
-              <div className="text-6xl font-montserrat font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">02</div>
-              <h3 className="text-xl font-montserrat font-semibold text-white mb-4">Проектирование</h3>
+              <div className="text-6xl font-avenir font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">02</div>
+              <h3 className="text-xl font-avenir font-semibold text-white mb-4">Проектирование</h3>
               <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
                 Создание архитектуры решения, техническое проектирование и планирование этапов разработки с учетом масштабируемости
               </p>
             </div>
             
             <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition-all duration-500 group cursor-pointer hover:-translate-y-2">
-              <div className="text-6xl font-montserrat font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">03</div>
-              <h3 className="text-xl font-montserrat font-semibold text-white mb-4">Реализация</h3>
+              <div className="text-6xl font-avenir font-bold text-white mb-4 group-hover:text-7xl transition-all duration-300">03</div>
+              <h3 className="text-xl font-avenir font-semibold text-white mb-4">Реализация</h3>
               <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
                 Разработка, тестирование и внедрение решения с последующей технической поддержкой и сопровождением
               </p>
@@ -217,13 +215,11 @@ export default function Index() {
               style={{ backgroundImage: `url('/img/ef497404-3952-4266-befe-5b1be05341a2.jpg')` }}
             />
             <div className="relative bg-gray-900/90 p-12 rounded-lg group-hover:bg-gray-900/95 transition-all duration-500">
-              <h3 className="text-3xl font-montserrat font-bold text-white mb-6">
-                Достижение целевого<br />
-                результата, качественно<br />
-                и в срок
+              <h3 className="text-3xl font-avenir font-bold text-white mb-6">
+                Достижение целевого результата, качественно и в срок
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mb-8">
-                Гарантия на выполненные работы до 12 мес. Мы помогаем бизнесу войти на новый уровень и оставаться конкурентоспособными
+                Гарантия на выполненные работы до 12&nbsp;мес. Мы помогаем бизнесу войти на новый уровень и оставаться конкурентоспособными
               </p>
               <Button className="bg-white text-black hover:bg-gray-200 font-semibold px-8 py-3 hover:scale-105 transition-transform duration-300">
                 Получить консультацию
@@ -237,7 +233,7 @@ export default function Index() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-montserrat font-bold text-black mb-8">Консалтинг</h2>
+            <h2 className="text-4xl font-avenir font-bold text-black mb-8">Консалтинг</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -247,7 +243,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Search" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Аудит ИТ-систем</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Аудит ИТ-систем</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Комплексная оценка существующей ИТ-инфраструктуры и выявление точек оптимизации
                 </p>
@@ -260,7 +256,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Target" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Стратегическое планирование</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Стратегическое планирование</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Разработка ИТ-стратегии развития и цифровой трансформации бизнеса
                 </p>
@@ -273,7 +269,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Settings" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Техническая экспертиза</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Техническая экспертиза</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Экспертная оценка технических решений и рекомендации по оптимизации
                 </p>
@@ -286,7 +282,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Users" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Управление проектами</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 group-hover:text-black transition-colors duration-300 relative z-10">Управление проектами</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Сопровождение ИТ-проектов от концепции до успешного внедрения
                 </p>
@@ -300,7 +296,7 @@ export default function Index() {
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-montserrat font-bold text-black mb-8">Сопровождение</h2>
+            <h2 className="text-4xl font-avenir font-bold text-black mb-8">Сопровождение</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -310,7 +306,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Monitor" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Мониторинг систем</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Мониторинг систем</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Круглосуточный мониторинг производительности и доступности ИТ-систем
                 </p>
@@ -323,7 +319,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Shield" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Информационная безопасность</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Информационная безопасность</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Обеспечение защиты данных и соответствие требованиям безопасности
                 </p>
@@ -336,7 +332,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Wrench" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Техническая поддержка</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Техническая поддержка</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Оперативное решение технических вопросов и поддержка пользователей
                 </p>
@@ -349,7 +345,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="TrendingUp" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Развитие и модернизация</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Развитие и модернизация</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Планомерное развитие ИТ-систем и внедрение новых функций
                 </p>
@@ -363,7 +359,7 @@ export default function Index() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-montserrat font-bold text-black mb-8">Внедрение и интеграция</h2>
+            <h2 className="text-4xl font-avenir font-bold text-black mb-8">Внедрение и интеграция</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -373,7 +369,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="ShoppingCart" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">E-commerce решения</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">E-commerce решения</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Разработка и интеграция платформ электронной коммерции
                 </p>
@@ -386,7 +382,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Layers" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Омниканальность</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Омниканальность</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Интеграция всех каналов продаж в единую экосистему
                 </p>
@@ -399,7 +395,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Database" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Интеграция систем</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Интеграция систем</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Связывание различных ИТ-систем и сервисов в единую инфраструктуру
                 </p>
@@ -412,7 +408,7 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-black group-hover:scale-110 transition-all duration-500 relative z-10">
                   <Icon name="Code" size={32} className="text-gray-600 group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-lg font-montserrat font-semibold text-black mb-4 relative z-10">Разработка</h3>
+                <h3 className="text-lg font-avenir font-semibold text-black mb-4 relative z-10">Разработка</h3>
                 <p className="text-gray-600 text-sm leading-relaxed group-hover:text-gray-700 transition-colors duration-300 relative z-10">
                   Создание высоконагруженных решений и API для интеграции
                 </p>
@@ -427,7 +423,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-4xl font-montserrat font-bold text-white mb-8">
+              <h2 className="text-4xl font-avenir font-bold text-white mb-8">
                 Свяжитесь с нами
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-12">
@@ -451,7 +447,7 @@ export default function Index() {
                   </div>
                   <div>
                     <div className="text-white font-semibold">Телефон</div>
-                    <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">+7 (495) 123-45-67</div>
+                    <div className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">+7&nbsp;(495)&nbsp;123-45-67</div>
                   </div>
                 </div>
                 
@@ -469,7 +465,7 @@ export default function Index() {
             
             <Card className="bg-gray-900 border-gray-800 hover:bg-gray-800 transition-colors duration-500">
               <CardContent className="p-8">
-                <h3 className="text-xl font-montserrat font-semibold text-white mb-6">Оставьте заявку</h3>
+                <h3 className="text-xl font-avenir font-semibold text-white mb-6">Оставьте заявку</h3>
                 <form className="space-y-4">
                   <div>
                     <input 
@@ -506,7 +502,7 @@ export default function Index() {
       <footer className="py-12 bg-gray-900">
         <div className="container mx-auto px-6">
           <div className="text-center">
-            <div className="text-3xl font-montserrat font-black text-white mb-4 hover:tracking-widest transition-all duration-500 cursor-pointer">AWG</div>
+            <div className="text-3xl font-avenir font-black text-white mb-4 hover:tracking-widest transition-all duration-500 cursor-pointer">AWG</div>
             <p className="text-gray-400 mb-6 hover:text-gray-300 transition-colors duration-300">
               Ведущий ИТ-интегратор
             </p>
