@@ -74,10 +74,10 @@ export default function Index() {
               
               {/* Левая часть - основной текст */}
               <div className="flex-1 max-w-2xl">
-                <div className="text-6xl md:text-7xl lg:text-8xl font-avenir-bold font-black text-white mb-8 leading-none tracking-tight hover:tracking-wider transition-all duration-700">
+                <div className="text-xl md:text-2xl font-avenir-bold font-black text-white mb-8 leading-none tracking-tight hover:tracking-wider transition-all duration-700">
                   next level IT
                 </div>
-                <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
+                <p className="text-6xl md:text-7xl lg:text-8xl text-gray-300 mb-8 leading-none font-light opacity-90 hover:opacity-100 transition-opacity duration-500">
                   Ведущий ИТ интегратор для выхода бизнеса на новый уровень
                 </p>
               </div>
