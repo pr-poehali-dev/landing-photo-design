@@ -197,25 +197,25 @@ export default function Index() {
       </section>
 
       {/* Achievements Section */}
-      <section className="bg-white relative" style={{height: '1080px'}}>
+      <section className="bg-white relative max-w-[1920px] mx-auto" style={{height: '1080px'}}>
         {/* Top border */}
         <div className="absolute top-20 left-10 right-10 h-px bg-black"></div>
         
         {/* Bottom border with opacity */}
-        <div className="absolute left-10 right-10 h-px bg-black opacity-40" style={{top: '680px'}}></div>
+        <div className="absolute h-px bg-black opacity-40" style={{left: '80px', right: '80px', top: '680px'}}></div>
         
         {/* Section number */}
-        <div className="absolute left-10 top-6 text-black text-lg font-avenir" style={{letterSpacing: '-0.015em'}}>
+        <div className="absolute text-black text-xl font-avenir" style={{left: '80px', top: '24px', letterSpacing: '-0.015em'}}>
           04
         </div>
         
         {/* Section title top */}
-        <div className="absolute left-10 text-black text-lg font-avenir" style={{top: '100px', letterSpacing: '-0.015em'}}>
+        <div className="absolute text-black text-xl font-avenir" style={{left: '80px', top: '100px', letterSpacing: '-0.015em'}}>
           Достижения
         </div>
         
         {/* Left column achievements */}
-        <div className="absolute flex flex-col gap-2.5" style={{left: '500px', top: '100px', width: '690px'}}>
+        <div className="absolute flex flex-col gap-3" style={{left: '480px', top: '100px', width: '640px'}}>
           <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 премии Tagline Awards 2023 в пяти номинациях
           </div>
@@ -237,7 +237,7 @@ export default function Index() {
         </div>
         
         {/* Right column achievements */}
-        <div className="absolute flex flex-col gap-2.5" style={{left: '1190px', top: '100px', width: '690px'}}>
+        <div className="absolute flex flex-col gap-3" style={{left: '1160px', top: '100px', width: '640px'}}>
           <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
           </div>
@@ -256,12 +256,12 @@ export default function Index() {
         </div>
         
         {/* Bottom section title */}
-        <div className="absolute left-10 text-black text-lg font-avenir" style={{top: '700px', letterSpacing: '-0.015em'}}>
+        <div className="absolute text-black text-xl font-avenir" style={{left: '80px', top: '700px', letterSpacing: '-0.015em'}}>
           Достижения
         </div>
         
         {/* Bottom achievements */}
-        <div className="absolute" style={{left: '500px', top: '700px', width: '690px'}}>
+        <div className="absolute" style={{left: '480px', top: '700px', width: '640px'}}>
           <div className="text-black text-lg font-avenir leading-6 mb-4" style={{letterSpacing: '-0.015em'}}>
             Член Российской ассоциации электронных коммуникаций
           </div>
