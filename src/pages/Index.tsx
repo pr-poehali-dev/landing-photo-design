@@ -214,8 +214,8 @@ export default function Index() {
           Достижения
         </div>
         
-        {/* Left column achievements */}
-        <div className="absolute flex flex-col gap-2" style={{left: '400px', top: '100px', width: '580px'}}>
+        {/* All achievements in single column */}
+        <div className="absolute flex flex-col gap-3" style={{left: '400px', top: '100px', width: '1200px'}}>
           <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 премии Tagline Awards 2023 в пяти номинациях
           </div>
@@ -234,10 +234,6 @@ export default function Index() {
           <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»
           </div>
-        </div>
-        
-        {/* Right column achievements */}
-        <div className="absolute flex flex-col gap-2" style={{left: '1000px', top: '100px', width: '580px'}}>
           <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
           </div>
@@ -260,18 +256,23 @@ export default function Index() {
           Достижения
         </div>
         
+        {/* Bottom achievements section title */}
+        <div className="absolute text-black text-xl font-avenir" style={{left: '80px', top: '580px', letterSpacing: '-0.015em'}}>
+          Дополнительно
+        </div>
+
         {/* Bottom achievements */}
-        <div className="absolute" style={{left: '400px', top: '700px', width: '580px'}}>
-          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
+        <div className="absolute flex flex-col gap-3" style={{left: '400px', top: '580px', width: '1200px'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             Член Российской ассоциации электронных коммуникаций
           </div>
-          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             Член Ассоциации менеджеров России
           </div>
-          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             Авторы ИТ-курсов Skillbox
           </div>
-          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             Аккредитация Минкомсвязи РФ
           </div>
           <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
