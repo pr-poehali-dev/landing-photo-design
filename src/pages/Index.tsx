@@ -215,42 +215,42 @@ export default function Index() {
         </div>
         
         {/* Left column achievements */}
-        <div className="absolute flex flex-col gap-3" style={{left: '480px', top: '100px', width: '640px'}}>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+        <div className="absolute flex flex-col gap-2" style={{left: '400px', top: '100px', width: '580px'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 премии Tagline Awards 2023 в пяти номинациях
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             35 место в рейтинге CNews крупнейших поставщиков ИТ в розницу 2024
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-100 лучших ИТ-работодателей в рейтинге от HH.ru
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-15 рейтинга Хабр Карьера
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             1 место рейтинга Рунета 2024 Диджитал-подрядчик крупнейших компаний по консалтингу
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             1 место рейтинга Рунета 2024 Разработчик интернет-магазинов для отраслей «Украшения» и «Мебель»
           </div>
         </div>
         
         {/* Right column achievements */}
-        <div className="absolute flex flex-col gap-3" style={{left: '1160px', top: '100px', width: '640px'}}>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+        <div className="absolute flex flex-col gap-2" style={{left: '1000px', top: '100px', width: '580px'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             ТОП-5 рейтинга Рунета 2024 Поддержка и развитие сайтов в сфере электронной коммерции
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             1 место конкурса «Золотой Сайт» Сервис, портал в области строительства и недвижимости
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             2 место в Кубковом рейтинге диджитал-интеграторов 2024
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             2 место премии Ruward Award 2025 Отраслевая экспертиза/электронная коммерция
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             4-х кратный обладатель премии «Большой оборот»
           </div>
         </div>
@@ -261,20 +261,20 @@ export default function Index() {
         </div>
         
         {/* Bottom achievements */}
-        <div className="absolute" style={{left: '480px', top: '700px', width: '640px'}}>
-          <div className="text-black text-lg font-avenir leading-6 mb-4" style={{letterSpacing: '-0.015em'}}>
+        <div className="absolute" style={{left: '400px', top: '700px', width: '580px'}}>
+          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
             Член Российской ассоциации электронных коммуникаций
           </div>
-          <div className="text-black text-lg font-avenir leading-6 mb-4" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
             Член Ассоциации менеджеров России
           </div>
-          <div className="text-black text-lg font-avenir leading-6 mb-4" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
             Авторы ИТ-курсов Skillbox
           </div>
-          <div className="text-black text-lg font-avenir leading-6 mb-4" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5 mb-3" style={{letterSpacing: '-0.015em'}}>
             Аккредитация Минкомсвязи РФ
           </div>
-          <div className="text-black text-lg font-avenir leading-6" style={{letterSpacing: '-0.015em'}}>
+          <div className="text-black text-base font-avenir leading-5" style={{letterSpacing: '-0.015em'}}>
             Резидент Сколково
           </div>
         </div>
